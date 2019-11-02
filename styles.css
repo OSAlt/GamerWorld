@@ -1,0 +1,38 @@
+video::-webkit-media-controls {
+  display: none;
+}
+
+
+/*
+video::-webkit-media-controls-play-button {
+
+}
+video::-webkit-media-controls-volume-slider {
+
+}
+video::-webkit-media-controls-mute-button {
+
+}
+video::-webkit-media-controls-timeline {
+}
+video::-webkit-media-controls-current-time-display{}
+*/
+.vid-container {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  overflow: hidden;
+  border: none;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+video
+{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}

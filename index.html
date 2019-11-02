@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+//For Firefox we have to handle it in JavaScript
+var vids = $("video");
+$.each(vids, function(){
+       this.controls = false;
+});
+//Loop though all Video tags and set Controls as false
+</script>
+<div class="vid-container">
+<video autoplay loop controls="false">
+  <source src="GamerWorld-Splash.mp4" type="video/mp4">
+</video>
+</div>
+</body>
+</html>

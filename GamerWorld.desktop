@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=GamerWorld
+Comment=Play Games all in one place
+Icon=/opt/GamerWorld/resources/app/icon.png
+Exec=/opt/GamerWorld/GamerWorld
+Categories=Game;X-XFCE;X-Xfce-Toplevel;
