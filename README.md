@@ -18,9 +18,9 @@ Heaps of different types of games to choose from!
 
 ![picture](https://i.imgur.com/BijsMEB.png)
 
-![picture](https://i.imgur.com/ijztcwd.png)
+![picture](https://imgur.com/kSxG9Ca.png)
 
-![picture](https://i.imgur.com/Ioi0khv.png)
+![picture](https://imgur.com/AyuRqaY.png)
 
 ## We need you developers!
 
