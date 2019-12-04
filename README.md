@@ -8,7 +8,7 @@ GamerWorld is a multiplatform gaming application to play games on the go as well
 
 Supporting 64bit Linux, Windows and a Beta untested version for Mac OS (need testers and devs to help!)
 
-![picture](https://i.imgur.com/Gb22aaQ.png)
+![picture](https://gamerworld.netlify.com/images/other/GW-preview2.png)
 
 News the news on Gamer World and game updates
 
