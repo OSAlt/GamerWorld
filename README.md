@@ -12,7 +12,7 @@ Supporting 64bit Linux, Windows and a Beta untested version for Mac OS (need tes
 
 News the news on Gamer World and game updates
 
-![picture](https://i.imgur.com/PnIwPCT.png)
+![picture](https://imgur.com/Q5SmHh6.png)
 
 Heaps of different types of games to choose from!
 
