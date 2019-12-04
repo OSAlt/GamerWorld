@@ -20,7 +20,7 @@ Heaps of different types of games to choose from!
 
 ![picture](https://imgur.com/kSxG9Ca.png)
 
-![picture](https://imgur.com/AyuRqaY.png)
+![picture](https://i.imgur.com/7uNbMb8.jpg)
 
 ## We need you developers!
 
