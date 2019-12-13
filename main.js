@@ -34,7 +34,16 @@ app.commandLine.appendSwitch('ppapi-flash-version', '30.0.0.154')
 
 let main = null
 const createWindow = () => {
-  main = new BrowserWindow({width: 1350, height: 900, icon: __dirname + '/icon.png', webPreferences: {plugins: false, experimentalFeatures: true,}, show: false})
+  main = new BrowserWindow({
+   width: 1350,
+   height: 900, 
+   icon: __dirname + '/icon.png', 
+   webPreferences: {
+     plugins: false, 
+     nodeIntegration: false, 
+     enableRemoteModule: false}, 
+     show: false
+  })
 
   let splash = new BrowserWindow({width: 500, height: 500, transparent: true, frame: false});
   splash.loadURL('file://' + __dirname + '/index.html') // Load splash screen
