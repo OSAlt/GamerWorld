@@ -36,18 +36,18 @@ let main = null
 const createWindow = () => {
   main = new BrowserWindow({
    width: 1350,
-   height: 900, 
-   icon: __dirname + '/icon.png', 
+   height: 900,
+   icon: __dirname + '/icon.png',
    webPreferences: {
-     plugins: false, 
-     nodeIntegration: false, 
-     enableRemoteModule: false}, 
+     plugins: false,
+     nodeIntegration: false,
+     enableRemoteModule: false},
      show: false
   })
 
   let splash = new BrowserWindow({width: 500, height: 500, transparent: true, frame: false});
   splash.loadURL('file://' + __dirname + '/index.html') // Load splash screen
-  main.loadURL('https://gw-ui.netlify.com') // start loading application
+  main.loadURL('https://gw-ui.netlify.com',{ userAgent: "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/999.999.9999.99 Safari/999.99"});
 
   main.once('ready-to-show', () => {
     splash.destroy();
