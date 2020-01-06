@@ -29,18 +29,21 @@ Join in the fun and help Gamer World by supporting it with awesome innovating ga
  ## Linux 64bit
 
  ### Zipped Portable File:
- - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/master/GamerWorld-linux-x64.tar.gz)
+ - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/Binaries/GamerWorld%20Setup.exe)
 
 
  ## Windows 64bit
 
+ ### Windows Setup:
+ - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/Binaries/GamerWorld-win32-x64.zip)
+
  ### Zipped Portable File:
- - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/master/GamerWorld-win32-x64.zip)
+ - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/Binaries/GamerWorld-win32-x64.zip)
 
  ## Mac OS (untested Beta) 64bit
 
  ###  Zipped Portable File:
- - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/master/GamerWorld-darwin-x64.zip)
+ - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/Binaries/GamerWorld-darwin-x64.zip)
 
 
 
