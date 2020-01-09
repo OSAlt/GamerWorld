@@ -2,7 +2,7 @@
 
 GamerWorld is a multiplatform gaming application to play games on the go as well as connect and help developer share and build games with the community in a open source platform free for everyone to use.
 
-Checkout the GamerWorld website [at gamerworld.netlify.com](https://gamerworld.netlify.com/)
+Checkout the GamerWorld website at [gamerworld.netlify.com](https://gamerworld.netlify.com/)
 
 ## Version 1.1.6-1
 
