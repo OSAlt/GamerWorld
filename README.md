@@ -1,4 +1,4 @@
-![picture](https://i.ibb.co/yyJKh5Y/gwlogo3.png)
+![picture](https://i.imgur.com/bTkwM0B.png)
 
 GamerWorld is a multiplatform gaming application to play games on the go as well as connect and help developer share and build games with the community in a open source platform free for everyone to use.
 
