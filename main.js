@@ -47,7 +47,7 @@ const createWindow = () => {
 
   let splash = new BrowserWindow({width: 500, height: 500, transparent: true, frame: false});
   splash.loadURL('file://' + __dirname + '/index.html') // Load splash screen
-  main.loadURL('https://gw-ui.netlify.com',{ userAgent: "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/999.999.9999.99 Safari/999.99"});
+  main.loadURL('https://gw-ui.netlify.com',{ userAgent: "Mozilla/5.0 rv:73.0) Gecko/20100101 Firefox/73.0'"})
 
   main.once('ready-to-show', () => {
     splash.destroy();
