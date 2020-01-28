@@ -28,6 +28,8 @@ Join in the fun and help Gamer World by supporting it with awesome innovating ga
 
  ## Linux 64bit
 
+ You can install Gamer World from the AUR for Arch/Manjaro distros.
+
  ### Zipped Portable File:
  - [Download](https://gitlab.com/gamerworld/gw-binaries/raw/Binaries/GamerWorld%20Setup.exe)
 
