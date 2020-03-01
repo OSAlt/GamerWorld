@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, shell} = require('electron')
 const path = require('path')
 
 // Disabled VSync due to WebGL issues
@@ -17,14 +17,6 @@ app.commandLine.appendSwitch('enable-native-gpu-memory-buffers')
 app.commandLine.appendSwitch('enable-tcp-fastopen')
 //app.commandLine.appendSwitch('show-fps-counter')
 app.commandLine.appendSwitch('force-gpu-rasterization')
-
-// Specify flash path, supposing it is placed in the same directory with main.js.
-const pluginList = {
-  'win32':  '/legacy/pepflashplayer.dll',
-  'darwin': '/legacy/PepperFlashPlayer.plugin',
-  'linux':  '/legacy/libpepflashplayer.so'
-}
-app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, pluginList[process.platform]))
 
 //Fixes WebGL support on old GPUS that get false unsupported message.
 app.commandLine.appendSwitch('ignore-gpu-blacklist', 'true');
@@ -56,6 +48,17 @@ const createWindow = () => {
     main.setMenu(null)
     main.$ = main.jQuery = require('jquery');
     main.show();
+  });
+
+  main.webContents.on('new-window', function(e, url) {
+    // make sure local urls stay in electron perimeter
+    if('file://' === url.substr(0, 'file://'.length)) {
+      return;
+    }
+
+    // and open every other protocols on the browser
+    e.preventDefault();
+    shell.openExternal(url);
   });
 
   main.webContents.on('will-navigate', ev => {
