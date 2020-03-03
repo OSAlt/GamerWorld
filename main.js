@@ -50,16 +50,16 @@ const createWindow = () => {
     main.show();
   });
 
-  main.webContents.on('new-window', function(e, url) {
+  //main.webContents.on('new-window', function(e, url) {
     // make sure local urls stay in electron perimeter
-    if('file://' === url.substr(0, 'file://'.length)) {
-      return;
-    }
+    //if('file://' === url.substr(0, 'file://'.length)) {
+      //return;
+    //}
 
     // and open every other protocols on the browser
-    e.preventDefault();
-    shell.openExternal(url);
-  });
+    //e.preventDefault();
+    //shell.openExternal(url);
+  //});
 
   main.webContents.on('will-navigate', ev => {
     ev.preventDefault()
