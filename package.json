@@ -1,7 +1,7 @@
 {
   "name": "GamerWorld",
   "version": "1.1.8",
-  "pkgrel": "1",
+  "pkgrel": "2",
   "description": "Play games all in one place",
   "main": "main.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "homepage": "https://gitlab.com/gamerworld/application",
   "license": "GPL",
   "devDependencies": {
-    "electron": "^6.1.7",
+    "electron": "^8.1.0",
     "electron-packager": "^14.2.1"
   },
   "dependencies": {
